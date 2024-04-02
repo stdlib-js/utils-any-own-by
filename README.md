@@ -218,7 +218,6 @@ bool = anyOwnBy( obj, threshold );
 
 <section class="related">
 
-
 </section>
 
 <!-- /.related -->
@@ -298,7 +297,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [mdn-object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
 <!-- <related-links> -->
-
 
 <!-- </related-links> -->
 
