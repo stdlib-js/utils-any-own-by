@@ -35,9 +35,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-own-property": "^0.2.1",
-    "@stdlib/assert-is-function": "^0.2.1",
-    "@stdlib/assert-is-object": "^0.2.1",
+    "@stdlib/assert-has-own-property": "^0.2.2",
+    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/assert-is-object": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.3.2",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
