@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-any-own-by
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import anyOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-any-own-by@deno/mod.js';
+var anyOwnBy = require( '@stdlib/utils-any-own-by' );
 ```
 
 #### anyBy( collection, predicate\[, thisArg ] )
@@ -165,8 +183,8 @@ var mean = context.sum / context.count;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import anyOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-any-own-by@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var anyOwnBy = require( '@stdlib/utils-any-own-by' );
 
 function threshold( value ) {
     return ( value > 0.94 );
@@ -206,7 +224,7 @@ bool = anyOwnBy( obj, threshold );
 
 -   <span class="package-name">[`@stdlib/utils-any-by`][@stdlib/utils/any-by]</span><span class="delimiter">: </span><span class="description">test whether at least one element in a collection passes a test implemented by a predicate function.</span>
 -   <span class="package-name">[`@stdlib/utils-any-in-by`][@stdlib/utils/any-in-by]</span><span class="delimiter">: </span><span class="description">test whether at least one property in an object passes a test implemented by a predicate function.</span>
--   <span class="package-name">[`@stdlib/utils-every-own-by`][@stdlib/utils/every-own-by]</span><span class="delimiter">: </span><span class="description">test whether all own properties of an object pass a test implemented by a predicate function.</span>
+-   <span class="package-name">[`@stdlib/object-every-own-by`][@stdlib/object/every-own-by]</span><span class="delimiter">: </span><span class="description">test whether all own properties of an object pass a test implemented by a predicate function.</span>
 -   <span class="package-name">[`@stdlib/utils-some-own-by`][@stdlib/utils/some-own-by]</span><span class="delimiter">: </span><span class="description">test whether some `own` properties of a provided object satisfy a predicate function for at least `n` properties.</span>
 
 </section>
@@ -222,7 +240,7 @@ bool = anyOwnBy( obj, threshold );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -289,13 +307,13 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/any-by]: https://github.com/stdlib-js/utils-any-by/tree/deno
+[@stdlib/utils/any-by]: https://github.com/stdlib-js/utils-any-by
 
-[@stdlib/utils/any-in-by]: https://github.com/stdlib-js/utils-any-in-by/tree/deno
+[@stdlib/utils/any-in-by]: https://github.com/stdlib-js/utils-any-in-by
 
-[@stdlib/utils/every-own-by]: https://github.com/stdlib-js/utils-every-own-by/tree/deno
+[@stdlib/object/every-own-by]: https://github.com/stdlib-js/object-every-own-by
 
-[@stdlib/utils/some-own-by]: https://github.com/stdlib-js/utils-some-own-by/tree/deno
+[@stdlib/utils/some-own-by]: https://github.com/stdlib-js/utils-some-own-by
 
 <!-- </related-links> -->
 
