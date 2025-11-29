@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-26)
+## Unreleased (2025-11-29)
 
 <section class="commits">
 
@@ -12,6 +12,10 @@
 
 <details>
 
+-   [`272e9da`](https://github.com/stdlib-js/stdlib/commit/272e9dabe6ef320417a6fcada1337fb5c074dc80) - **chore:** fix README lint errors _(by Neeraj Pathak)_
+-   [`6499a10`](https://github.com/stdlib-js/stdlib/commit/6499a10c943fbdbcae8099366fe612d8aa527ddf) - **chore:** fix README lint errors _(by Neeraj Pathak)_
+-   [`6ea3fff`](https://github.com/stdlib-js/stdlib/commit/6ea3fff1850167852dc0ea18003c1e0209d70335) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`35b2819`](https://github.com/stdlib-js/stdlib/commit/35b281999025fcd8236f7ca446cf44572cbb00f5) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`f477e26`](https://github.com/stdlib-js/stdlib/commit/f477e26a03e5e365f2e7c4035959a2fb789698a3) - **chore:** move functions to parent scope _(by Philipp Burckhardt)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
